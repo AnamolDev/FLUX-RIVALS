@@ -1859,7 +1859,7 @@ return u.c
 end
 end
 do -- v
-local function fn35()local I,W,N,P= tbl17 .u(),{},table.freeze({IsCompact=false,Rail=table.freeze({Width=100,HeaderHeight=85,TabsTop=102,TabSize=66,TabGap=4,TabIconSize=26,LogoSize=Vector2.new(48,37),ShowLabels=true}),Page=table.freeze({HasTitleBlock=true,OuterInset=18,HorizontalInset=17,HeaderHeight=85,TabsHeight=84,BottomInset=17,TitleTextSize=18,DescriptionTextSize=13,TabMinWidth=50,TabHeight=50,TabIconSize=24,TabTextSize=16,TabGap=14,TabPaddingLeft=13,TabPaddingRight=16,SearchCollapsedWidth=90,SearchExpandedWidth=260,SearchHeight=33,SearchRightInset=14}),Navigation=table.freeze({CueDepth=12,RevealPadding=4,VisibilityEpsilon=1}),Grid=table.freeze({Gap=17,MinColumnWidth=220}),Section=table.freeze({Gap=17,TitleGap=16,InnerPadding=12,ElementGap=12,GroupGap=12,TitleTextSize=16,MultiHeaderHeight=45,MultiHeaderGap=12,MultiHeaderPadding=12,MultiPaneTop=57,MultiTabTextSize=16}),Row=table.freeze({Height=24,TextSize=16,ControlVerticalInset=0,ControlHeight=22,AttachmentGap=11,ListRowHeight=26}),Button=table.freeze({RowHeight=24,VisualHeight=22,Gap=13})}),table.freeze({IsCompact=true,Rail=table.freeze({Width=52,HeaderHeight=48,TabsTop=52,TabSize=44,TabGap=2,TabIconSize=20,LogoSize=Vector2.new(24,19),ShowLabels=false}),Page=table.freeze({HasTitleBlock=true,OuterInset=12,HorizontalInset=12,HeaderHeight=44,TabsHeight=40,BottomInset=12,TitleTextSize=16,DescriptionTextSize=10,TabMinWidth=44,TabHeight=34,TabIconSize=18,TabTextSize=13,TabGap=6,TabPaddingLeft=8,TabPaddingRight=10,SearchCollapsedWidth=32,SearchExpandedWidth=220,SearchHeight=32,SearchRightInset=8}),Navigation=table.freeze({CueDepth=12,RevealPadding=4,VisibilityEpsilon=1}),Grid=table.freeze({Gap=12,MinColumnWidth=220}),Section=table.freeze({Gap=12,TitleGap=8,InnerPadding=8,ElementGap=8,GroupGap=8,TitleTextSize=15,MultiHeaderHeight=36,MultiHeaderGap=8,MultiHeaderPadding=8,MultiPaneTop=44,MultiTabTextSize=13}),Row=table.freeze({Height=32,TextSize=14,ControlVerticalInset=4,ControlHeight=24,AttachmentGap=8,ListRowHeight=32}),Button=table.freeze({RowHeight=32,VisualHeight=30,Gap=8})});local l=table.freeze({IsCompact=true,Rail=P.Rail,Page=table.freeze({HasTitleBlock=false,OuterInset=12,HorizontalInset=12,HeaderHeight=0,TabsHeight=44,BottomInset=12,TitleTextSize=16,DescriptionTextSize=10,TabMinWidth=44,TabHeight=36,TabIconSize=18,TabTextSize=14,TabGap=6,TabPaddingLeft=8,TabPaddingRight=10,SearchCollapsedWidth=32,SearchExpandedWidth=220,SearchHeight=32,SearchRightInset=8}),Navigation=P.Navigation,Grid=table.freeze({Gap=12,MinColumnWidth=330}),Section=P.Section,Row=table.freeze({Height=40,TextSize=15,ControlVerticalInset=6,ControlHeight=28,AttachmentGap=8,ListRowHeight=40}),Button=table.freeze({RowHeight=40,VisualHeight=36,Gap=8})});W.get=function()if not I.IsMobile()then return N;end;if I.IsTablet()then return P;end;return l;end;return W;end
+local function fn35()local I,W,N,P= tbl17 .u(),{},table.freeze({IsCompact=false,Rail=table.freeze({Width=64,HeaderHeight=72,TabsTop=84,TabSize=44,TabGap=6,TabIconSize=20,LogoSize=Vector2.new(34,26),ShowLabels=false}),Page=table.freeze({HasTitleBlock=true,OuterInset=18,HorizontalInset=17,HeaderHeight=85,TabsHeight=84,BottomInset=17,TitleTextSize=18,DescriptionTextSize=13,TabMinWidth=50,TabHeight=50,TabIconSize=24,TabTextSize=16,TabGap=14,TabPaddingLeft=13,TabPaddingRight=16,SearchCollapsedWidth=90,SearchExpandedWidth=260,SearchHeight=33,SearchRightInset=14}),Navigation=table.freeze({CueDepth=12,RevealPadding=4,VisibilityEpsilon=1}),Grid=table.freeze({Gap=17,MinColumnWidth=220}),Section=table.freeze({Gap=17,TitleGap=16,InnerPadding=12,ElementGap=12,GroupGap=12,TitleTextSize=16,MultiHeaderHeight=45,MultiHeaderGap=12,MultiHeaderPadding=12,MultiPaneTop=57,MultiTabTextSize=16}),Row=table.freeze({Height=24,TextSize=16,ControlVerticalInset=0,ControlHeight=22,AttachmentGap=11,ListRowHeight=26}),Button=table.freeze({RowHeight=24,VisualHeight=22,Gap=13})}),table.freeze({IsCompact=true,Rail=table.freeze({Width=52,HeaderHeight=48,TabsTop=52,TabSize=44,TabGap=2,TabIconSize=20,LogoSize=Vector2.new(24,19),ShowLabels=false}),Page=table.freeze({HasTitleBlock=true,OuterInset=12,HorizontalInset=12,HeaderHeight=44,TabsHeight=40,BottomInset=12,TitleTextSize=16,DescriptionTextSize=10,TabMinWidth=44,TabHeight=34,TabIconSize=18,TabTextSize=13,TabGap=6,TabPaddingLeft=8,TabPaddingRight=10,SearchCollapsedWidth=32,SearchExpandedWidth=220,SearchHeight=32,SearchRightInset=8}),Navigation=table.freeze({CueDepth=12,RevealPadding=4,VisibilityEpsilon=1}),Grid=table.freeze({Gap=12,MinColumnWidth=220}),Section=table.freeze({Gap=12,TitleGap=8,InnerPadding=8,ElementGap=8,GroupGap=8,TitleTextSize=15,MultiHeaderHeight=36,MultiHeaderGap=8,MultiHeaderPadding=8,MultiPaneTop=44,MultiTabTextSize=13}),Row=table.freeze({Height=32,TextSize=14,ControlVerticalInset=4,ControlHeight=24,AttachmentGap=8,ListRowHeight=32}),Button=table.freeze({RowHeight=32,VisualHeight=30,Gap=8})});local l=table.freeze({IsCompact=true,Rail=P.Rail,Page=table.freeze({HasTitleBlock=false,OuterInset=12,HorizontalInset=12,HeaderHeight=0,TabsHeight=44,BottomInset=12,TitleTextSize=16,DescriptionTextSize=10,TabMinWidth=44,TabHeight=36,TabIconSize=18,TabTextSize=14,TabGap=6,TabPaddingLeft=8,TabPaddingRight=10,SearchCollapsedWidth=32,SearchExpandedWidth=220,SearchHeight=32,SearchRightInset=8}),Navigation=P.Navigation,Grid=table.freeze({Gap=12,MinColumnWidth=330}),Section=P.Section,Row=table.freeze({Height=40,TextSize=15,ControlVerticalInset=6,ControlHeight=28,AttachmentGap=8,ListRowHeight=40}),Button=table.freeze({RowHeight=40,VisualHeight=36,Gap=8})});W.get=function()if not I.IsMobile()then return N;end;if I.IsTablet()then return P;end;return l;end;return W;end
 
 tbl17.v = function()
 local v115 = tbl17.cache.v
@@ -2214,7 +2214,7 @@ _isBareFlexRoot = false,
 _visible = v86[34],
 _height = n,
 _mediumTitle = arg2.MediumTitle == true,
-_rightOffset = arg2.RightOffset or 0,
+_rightOffset = arg2.RightOffset or -12,
 _attachments = {},
 _titleAccessories = {},
 _titleAccessoryReserve = v86[186],
@@ -2604,7 +2604,11 @@ end
 arg:_BuildBareRoot(parent, layoutOrder, ctx)
 else
 local textButton = Instance.new("TextButton")
-textButton.BackgroundTransparency = 1
+textButton.BackgroundTransparency = 0
+ctx.Batch:Bind(textButton, "BackgroundColor3", "ElementBackground")
+local uiCornerRow = Instance.new("UICorner")
+uiCornerRow.CornerRadius = UDim.new(0, 8)
+uiCornerRow.Parent = textButton
 textButton.Size = UDim2.new(1, 0, 0, arg._height)
 textButton.BorderSizePixel = 0
 textButton.AutomaticSize = Enum.AutomaticSize.Y
@@ -2619,7 +2623,7 @@ local textLabel = Instance.new("TextLabel")
 textLabel.Text = arg.Label or ""
 textLabel.AnchorPoint = Vector2.zero
 textLabel.BackgroundTransparency = v86[63]
-textLabel.Position = UDim2.fromOffset(v86[186], math.round((arg._height - n) / 2))
+textLabel.Position = UDim2.fromOffset(12, math.round((arg._height - n) / 2))
 textLabel.Size = UDim2.fromOffset(0, n)
 textLabel.BorderSizePixel = 0
 textLabel.AutomaticSize = Enum.AutomaticSize.X
@@ -3916,7 +3920,7 @@ uiGradient.Rotation = v86[45]
 arg2.Batch:BindGradient(uiGradient, { "GradientMid", "GradientDark" })
 uiGradient.Parent = textButton
 local uiCorner = Instance.new("UICorner")
-uiCorner.CornerRadius = UDim.new(0, v86[175])
+uiCorner.CornerRadius = UDim.new(0, 8)
 uiCorner.Parent = textButton
 
 if inline then
@@ -4732,7 +4736,7 @@ local uiSizeConstraint = Instance.new("UISizeConstraint")
 uiSizeConstraint.MinSize = Vector2.new(24, controlHeight)
 uiSizeConstraint.Parent = instance
 local uiCorner = Instance.new("UICorner")
-uiCorner.CornerRadius = UDim.new(0, v86[175])
+uiCorner.CornerRadius = UDim.new(0, 8)
 uiCorner.Parent = instance
 local uiStroke2 = Instance.new("UIStroke")
 arg2.Batch:Bind(uiStroke2, "Color", v86[120])
@@ -8105,7 +8109,7 @@ uiGradient.Rotation = 90
 v115.bindSurfaceGradient(arg, uiGradient, { "GradientMid", v86[70] })
 uiGradient.Parent = frame
 local uiCorner = Instance.new("UICorner")
-uiCorner.CornerRadius = UDim.new(0, 6)
+uiCorner.CornerRadius = UDim.new(0, 10)
 uiCorner.Parent = frame
 local instance = Instance.new(v86[85])
 arg:Bind(instance, v86[27], "Outline")
@@ -12933,11 +12937,11 @@ index2.new = function(arg, arg2, arg3)
 local v118 = arg3:Extend()
 local v119 = v116.newBatch(v118)
 local stateData = arg:GetStateData()
-local flag19 = stateData ~= nil and stateData.ShowKeybinds == false
-local flag20 = true
+local flag19 = stateData ~= nil and stateData.ShowKeybinds == true
+local flag20 = false
 
 if flag19 then
-flag20 = false
+flag20 = true
 end
 
 local v120, v121, v122 = fn42(arg, v119, arg2, v118)
@@ -13212,7 +13216,7 @@ v120:Bind(textButton, "BackgroundColor3", "Background")
 textButton.Parent = arg._parent
 arg2.Trove:Add(textButton)
 local uiCorner = Instance.new("UICorner")
-uiCorner.CornerRadius = UDim.new(0, v86[175])
+uiCorner.CornerRadius = UDim.new(0, 8)
 uiCorner.Parent = textButton
 local instance = Instance.new(v86[85])
 instance.Thickness = v86[63]
@@ -15476,7 +15480,7 @@ return arg4.Label
 end)
 end
 
-arg3:BindStateful("Accent", function(imageColor3)
+arg3:BindStateful("TextColor", function(imageColor3)
 if obj._selected then
 obj._icon.ImageColor3 = imageColor3
 obj._label.TextColor3 = imageColor3
@@ -15501,7 +15505,7 @@ arg._selected = selected
 local str7 = "Unselected"
 
 if selected then
-str7 = "Accent"
+str7 = "TextColor"
 end
 
 local v119 = v118.get(str7)
@@ -15542,6 +15546,10 @@ frame.BackgroundTransparency = v86[63]
 frame.Size = UDim2.new(0, rail.Width, 1, 0)
 frame.BorderSizePixel = 0
 arg3:Bind(frame, "BackgroundColor3", v86[168])
+frame.ClipsDescendants = true
+local railCorner = Instance.new("UICorner")
+railCorner.CornerRadius = UDim.new(0, 12)
+railCorner.Parent = frame
 frame.Parent = parent
 local instance = Instance.new(v86[128])
 instance.BackgroundTransparency = 0
@@ -15629,6 +15637,7 @@ instance4.SortOrder = Enum.SortOrder.LayoutOrder
 instance4.Parent = frame4
 local frame5 = Instance.new("Frame")
 frame5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+frame5.BackgroundTransparency = 0.25
 frame5.BorderSizePixel = 0
 frame5.Size = UDim2.fromOffset(rail.TabSize, rail.TabSize)
 frame5.Position = UDim2.fromScale(v86[101], v86[186])
@@ -15638,10 +15647,11 @@ frame5.ZIndex = 0
 frame5.Parent = instance3
 local instance5 = Instance.new(v86[46])
 instance5.Rotation = v86[45]
-arg3:BindGradient(instance5, { "TabHighlight", "TabButtonSelected", v86[191] }, { 0, 0.5, 1 })
+arg3:BindGradient(instance5, { "Accent", "Accent", "Accent" }, { 0, 0.5, 1 })
+instance5.Transparency = NumberSequence.new(0.25)
 instance5.Parent = frame5
 local instance6 = Instance.new(v86[98])
-instance6.CornerRadius = UDim.new(0, 6)
+instance6.CornerRadius = UDim.new(1, 0)
 instance6.Parent = frame5
 v117.attachOverflowCues(arg2, arg3, instance3, frame, v86[197])
 
@@ -16629,7 +16639,7 @@ frame.Size = size
 frame.AnchorPoint = Vector2.new(0, 0)
 frame.Position = udim2
 local uiCorner = Instance.new("UICorner")
-uiCorner.CornerRadius = UDim.new(0, 6)
+uiCorner.CornerRadius = UDim.new(0, 12)
 uiCorner.Parent = frame
 local instance3 = Instance.new(v86[128])
 instance3.Position = UDim2.new(0, 0, 1, -8)
@@ -17821,7 +17831,7 @@ return Color3.fromRGB(r, g, b)
 end
 
 local presets = {
-{ Name = "Flux", Tokens = { Accent = rgb(96,170,255), Outline = rgb(47,52,61), Background = rgb(26,27,38), ElementBackground = rgb(32,34,46), TabButtonSelected = rgb(40,42,56), Unselected = rgb(122,131,165), TextColor = rgb(236,236,244), ToggleCircleUnselected = rgb(96,104,138), ToggleBackgroundUnselected = rgb(22,23,33), GradientTop = rgb(32,34,46), GradientMid = rgb(26,27,38), GradientDark = rgb(21,22,31), GradientDeep = rgb(16,17,25), TabHighlight = rgb(52,58,76), TabShadow = rgb(14,15,22) } },
+{ Name = "Flux", Tokens = { Accent = rgb(108,153,227), Outline = rgb(30,31,44), Background = rgb(16,17,24), ElementBackground = rgb(21,22,30), TabButtonSelected = rgb(30,44,70), Unselected = rgb(128,132,152), TextColor = rgb(214,218,232), ToggleCircleUnselected = rgb(135,140,165), ToggleBackgroundUnselected = rgb(40,42,58), GradientTop = rgb(28,32,48), GradientMid = rgb(18,19,28), GradientDark = rgb(14,15,22), GradientDeep = rgb(10,10,16), TabHighlight = rgb(40,58,96), TabShadow = rgb(8,8,13) } },
 { Name = "Snow", Tokens = { Accent = rgb(70,130,190), Outline = rgb(203,213,224), Background = rgb(236,241,247), ElementBackground = rgb(250,252,255), TabButtonSelected = rgb(214,228,242), Unselected = rgb(108,120,136), TextColor = rgb(28,34,44), ToggleCircleUnselected = rgb(146,158,172), ToggleBackgroundUnselected = rgb(216,224,234), GradientTop = rgb(248,250,253), GradientMid = rgb(240,244,249), GradientDark = rgb(228,234,242), GradientDeep = rgb(218,226,236), TabHighlight = rgb(214,228,242), TabShadow = rgb(196,208,222) } },
 { Name = "Halloween", Tokens = { Accent = rgb(255,117,24), Outline = rgb(48,30,18), Background = rgb(12,9,14), ElementBackground = rgb(22,16,26), TabButtonSelected = rgb(58,32,14), Unselected = rgb(140,110,90), TextColor = rgb(243,234,220), ToggleCircleUnselected = rgb(120,84,52), ToggleBackgroundUnselected = rgb(28,20,30), GradientTop = rgb(26,18,30), GradientMid = rgb(18,12,22), GradientDark = rgb(12,8,16), GradientDeep = rgb(6,4,10), TabHighlight = rgb(70,36,16), TabShadow = rgb(36,20,40) } },
 { Name = "Tokyo Night", Tokens = { Accent = rgb(122,162,247), Outline = rgb(41,46,66), Background = rgb(26,27,38), ElementBackground = rgb(36,40,59), TabButtonSelected = rgb(41,46,66), Unselected = rgb(86,95,137), TextColor = rgb(192,202,245), ToggleCircleUnselected = rgb(86,95,137), ToggleBackgroundUnselected = rgb(31,35,53), GradientTop = rgb(31,35,53), GradientMid = rgb(26,27,38), GradientDark = rgb(22,23,33), GradientDeep = rgb(16,16,24), TabHighlight = rgb(61,68,104), TabShadow = rgb(22,23,33) } },
@@ -18717,7 +18727,7 @@ transparency = arg2.Transparency
 tbl18[arg2] = transparency
 end
 
-local v136 = arg._tweener:Play(arg2, { Transparency = arg3 and transparency or 1 })
+local v136 = arg._tweener:Play(arg2, { Transparency = arg3 and transparency or 1 }, TweenInfo.new(0.35, Enum.EasingStyle.Quad, Enum.EasingDirection.Out))
 if v136 == nil then
 arg2.Transparency = transparency
 return nil
@@ -18758,7 +18768,7 @@ if visible then
 groupTransparency = 0
 end
 
-local v136 = arg._tweener:Play(arg2, { GroupTransparency = groupTransparency })
+local v136 = arg._tweener:Play(arg2, { GroupTransparency = groupTransparency }, TweenInfo.new(0.35, Enum.EasingStyle.Quad, Enum.EasingDirection.Out))
 
 if v136 == nil then
 arg2.GroupTransparency = groupTransparency
