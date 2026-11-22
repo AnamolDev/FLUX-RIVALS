@@ -1859,7 +1859,7 @@ return u.c
 end
 end
 do -- v
-local function fn35()local I,W,N,P= tbl17 .u(),{},table.freeze({IsCompact=false,Rail=table.freeze({Width=64,HeaderHeight=72,TabsTop=84,TabSize=44,TabGap=6,TabIconSize=20,LogoSize=Vector2.new(34,26),ShowLabels=false}),Page=table.freeze({HasTitleBlock=true,OuterInset=18,HorizontalInset=17,HeaderHeight=85,TabsHeight=84,BottomInset=17,TitleTextSize=18,DescriptionTextSize=13,TabMinWidth=50,TabHeight=50,TabIconSize=24,TabTextSize=16,TabGap=14,TabPaddingLeft=13,TabPaddingRight=16,SearchCollapsedWidth=90,SearchExpandedWidth=260,SearchHeight=33,SearchRightInset=14}),Navigation=table.freeze({CueDepth=12,RevealPadding=4,VisibilityEpsilon=1}),Grid=table.freeze({Gap=17,MinColumnWidth=220}),Section=table.freeze({Gap=17,TitleGap=16,InnerPadding=12,ElementGap=12,GroupGap=12,TitleTextSize=16,MultiHeaderHeight=45,MultiHeaderGap=12,MultiHeaderPadding=12,MultiPaneTop=57,MultiTabTextSize=16}),Row=table.freeze({Height=24,TextSize=16,ControlVerticalInset=0,ControlHeight=22,AttachmentGap=11,ListRowHeight=26}),Button=table.freeze({RowHeight=24,VisualHeight=22,Gap=13})}),table.freeze({IsCompact=true,Rail=table.freeze({Width=52,HeaderHeight=48,TabsTop=52,TabSize=44,TabGap=2,TabIconSize=20,LogoSize=Vector2.new(24,19),ShowLabels=false}),Page=table.freeze({HasTitleBlock=true,OuterInset=12,HorizontalInset=12,HeaderHeight=44,TabsHeight=40,BottomInset=12,TitleTextSize=16,DescriptionTextSize=10,TabMinWidth=44,TabHeight=34,TabIconSize=18,TabTextSize=13,TabGap=6,TabPaddingLeft=8,TabPaddingRight=10,SearchCollapsedWidth=32,SearchExpandedWidth=220,SearchHeight=32,SearchRightInset=8}),Navigation=table.freeze({CueDepth=12,RevealPadding=4,VisibilityEpsilon=1}),Grid=table.freeze({Gap=12,MinColumnWidth=220}),Section=table.freeze({Gap=12,TitleGap=8,InnerPadding=8,ElementGap=8,GroupGap=8,TitleTextSize=15,MultiHeaderHeight=36,MultiHeaderGap=8,MultiHeaderPadding=8,MultiPaneTop=44,MultiTabTextSize=13}),Row=table.freeze({Height=32,TextSize=14,ControlVerticalInset=4,ControlHeight=24,AttachmentGap=8,ListRowHeight=32}),Button=table.freeze({RowHeight=32,VisualHeight=30,Gap=8})});local l=table.freeze({IsCompact=true,Rail=P.Rail,Page=table.freeze({HasTitleBlock=false,OuterInset=12,HorizontalInset=12,HeaderHeight=0,TabsHeight=44,BottomInset=12,TitleTextSize=16,DescriptionTextSize=10,TabMinWidth=44,TabHeight=36,TabIconSize=18,TabTextSize=14,TabGap=6,TabPaddingLeft=8,TabPaddingRight=10,SearchCollapsedWidth=32,SearchExpandedWidth=220,SearchHeight=32,SearchRightInset=8}),Navigation=P.Navigation,Grid=table.freeze({Gap=12,MinColumnWidth=330}),Section=P.Section,Row=table.freeze({Height=40,TextSize=15,ControlVerticalInset=6,ControlHeight=28,AttachmentGap=8,ListRowHeight=40}),Button=table.freeze({RowHeight=40,VisualHeight=36,Gap=8})});W.get=function()if not I.IsMobile()then return N;end;if I.IsTablet()then return P;end;return l;end;return W;end
+local function fn35()local I,W,N,P= tbl17 .u(),{},table.freeze({IsCompact=false,Rail=table.freeze({Width=64,HeaderHeight=72,TabsTop=84,TabSize=44,TabGap=6,TabIconSize=20,LogoSize=Vector2.new(56,43),ShowLabels=false}),Page=table.freeze({HasTitleBlock=true,OuterInset=18,HorizontalInset=17,HeaderHeight=85,TabsHeight=12,BottomInset=64,TitleTextSize=18,DescriptionTextSize=13,TabMinWidth=50,TabHeight=50,TabIconSize=24,TabTextSize=16,TabGap=14,TabPaddingLeft=13,TabPaddingRight=16,SearchCollapsedWidth=90,SearchExpandedWidth=260,SearchHeight=33,SearchRightInset=14}),Navigation=table.freeze({CueDepth=12,RevealPadding=4,VisibilityEpsilon=1}),Grid=table.freeze({Gap=17,MinColumnWidth=220}),Section=table.freeze({Gap=17,TitleGap=16,InnerPadding=12,ElementGap=12,GroupGap=12,TitleTextSize=16,MultiHeaderHeight=45,MultiHeaderGap=12,MultiHeaderPadding=12,MultiPaneTop=57,MultiTabTextSize=16}),Row=table.freeze({Height=24,TextSize=16,ControlVerticalInset=0,ControlHeight=22,AttachmentGap=11,ListRowHeight=26}),Button=table.freeze({RowHeight=24,VisualHeight=22,Gap=13})}),table.freeze({IsCompact=true,Rail=table.freeze({Width=52,HeaderHeight=48,TabsTop=52,TabSize=44,TabGap=2,TabIconSize=20,LogoSize=Vector2.new(24,19),ShowLabels=false}),Page=table.freeze({HasTitleBlock=true,OuterInset=12,HorizontalInset=12,HeaderHeight=44,TabsHeight=40,BottomInset=12,TitleTextSize=16,DescriptionTextSize=10,TabMinWidth=44,TabHeight=34,TabIconSize=18,TabTextSize=13,TabGap=6,TabPaddingLeft=8,TabPaddingRight=10,SearchCollapsedWidth=32,SearchExpandedWidth=220,SearchHeight=32,SearchRightInset=8}),Navigation=table.freeze({CueDepth=12,RevealPadding=4,VisibilityEpsilon=1}),Grid=table.freeze({Gap=12,MinColumnWidth=220}),Section=table.freeze({Gap=12,TitleGap=8,InnerPadding=8,ElementGap=8,GroupGap=8,TitleTextSize=15,MultiHeaderHeight=36,MultiHeaderGap=8,MultiHeaderPadding=8,MultiPaneTop=44,MultiTabTextSize=13}),Row=table.freeze({Height=32,TextSize=14,ControlVerticalInset=4,ControlHeight=24,AttachmentGap=8,ListRowHeight=32}),Button=table.freeze({RowHeight=32,VisualHeight=30,Gap=8})});local l=table.freeze({IsCompact=true,Rail=P.Rail,Page=table.freeze({HasTitleBlock=false,OuterInset=12,HorizontalInset=12,HeaderHeight=0,TabsHeight=44,BottomInset=12,TitleTextSize=16,DescriptionTextSize=10,TabMinWidth=44,TabHeight=36,TabIconSize=18,TabTextSize=14,TabGap=6,TabPaddingLeft=8,TabPaddingRight=10,SearchCollapsedWidth=32,SearchExpandedWidth=220,SearchHeight=32,SearchRightInset=8}),Navigation=P.Navigation,Grid=table.freeze({Gap=12,MinColumnWidth=330}),Section=P.Section,Row=table.freeze({Height=40,TextSize=15,ControlVerticalInset=6,ControlHeight=28,AttachmentGap=8,ListRowHeight=40}),Button=table.freeze({RowHeight=40,VisualHeight=36,Gap=8})});W.get=function()if not I.IsMobile()then return N;end;if I.IsTablet()then return P;end;return l;end;return W;end
 
 tbl17.v = function()
 local v115 = tbl17.cache.v
@@ -14756,15 +14756,16 @@ local subtabs = arg2._subtabs
 assert(subtabs ~= nil, "Page.new requires the tab's page header")
 local textButton = Instance.new("TextButton")
 textButton.BackgroundTransparency = 1
-textButton.Size = UDim2.fromOffset(page.TabMinWidth, page.TabHeight)
+textButton.Size = UDim2.fromOffset(page.TabHeight, page.TabHeight)
 textButton.BorderSizePixel = 0
-textButton.AutomaticSize = Enum.AutomaticSize.X
+textButton.AutomaticSize = Enum.AutomaticSize.None
+textButton.ZIndex = 6
 textButton.Text = ""
 textButton.AutoButtonColor = false
-v122:Bind(textButton, "BackgroundColor3", "TabButtonSelected")
+v122:Bind(textButton, "BackgroundColor3", "Accent")
 textButton.Parent = subtabs
 local instance = Instance.new(v86[98])
-instance.CornerRadius = UDim.new(v86[186], 6)
+instance.CornerRadius = UDim.new(1, 0)
 instance.Parent = textButton
 local flag19 = arg5.Icon ~= nil and arg5.Icon ~= ""
 local imageLabel = nil
@@ -14778,17 +14779,24 @@ imageLabel.BackgroundTransparency = 1
 imageLabel.Position = UDim2.fromScale(0.5, 0.5)
 imageLabel.Size = UDim2.fromOffset(page.TabIconSize, page.TabIconSize)
 imageLabel.BorderSizePixel = 0
+imageLabel.ZIndex = 7
 imageLabel.Parent = textButton
 end
 
 local frame = Instance.new("Frame")
 frame.BackgroundTransparency = v86[63]
-frame.Size = UDim2.new(0, 0, 0, 0)
+if imageLabel ~= nil then
+frame.Position = UDim2.fromOffset(page.TabPaddingLeft + page.TabIconSize + 12, 0)
+else
+frame.Position = UDim2.fromOffset(page.TabPaddingLeft, 0)
+end
+frame.Size = UDim2.new(1, -(page.TabPaddingLeft + page.TabIconSize + 12 + page.TabPaddingRight), 1, 0)
 frame.BorderSizePixel = 0
-frame.AutomaticSize = Enum.AutomaticSize.XY
+frame.AutomaticSize = Enum.AutomaticSize.None
+frame.ZIndex = 7
 frame.Parent = textButton
 local instance2 = Instance.new(v86[135])
-instance2.TextTransparency = 0
+instance2.TextTransparency = 1
 instance2.Text = arg5.Label
 instance2.AnchorPoint = Vector2.new(0, 0.5)
 instance2.BorderSizePixel = 0
@@ -14797,7 +14805,7 @@ instance2.Position = UDim2.fromScale(0, 0.5)
 instance2.AutomaticSize = Enum.AutomaticSize.XY
 instance2.TextSize = page.TabTextSize
 instance2.FontFace = arg.Fonts.Main
-v122:Bind(instance2, "TextColor3", v86[174])
+v122:Bind(instance2, "TextColor3", "TextColor")
 instance2.Parent = frame
 local uiPadding = Instance.new("UIPadding")
 uiPadding.PaddingBottom = UDim.new(v86[186], 4)
@@ -14818,7 +14826,6 @@ end
 instance3.FillDirection = Enum.FillDirection.Horizontal
 instance3.Padding = UDim.new(0, page.TabGap)
 instance3.SortOrder = Enum.SortOrder.LayoutOrder
-instance3.Parent = textButton
 local tabPaddingLeft = page.TabPaddingLeft
 local tabPaddingRight = page.TabPaddingRight
 
@@ -14876,11 +14883,53 @@ _pendingOpen = v86[153],
 _selected = false,
 }, index2)
 
+obj._hovered = false
+local dockAnim = TweenInfo.new(0.42, Enum.EasingStyle.Back, Enum.EasingDirection.Out)
+local dockFade = TweenInfo.new(0.22, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+local function expandedWidth()
+local tx = instance2.TextBounds.X
+if tx <= 0 then
+tx = #tostring(arg5.Label or "") * page.TabTextSize * 0.58
+end
+local lead = page.TabPaddingLeft
+if imageLabel ~= nil then
+lead = lead + page.TabIconSize + 14
+end
+return math.ceil(lead + tx + page.TabPaddingRight)
+end
+local function applyDock(hovered)
+local expanded = obj._selected or hovered or imageLabel == nil
+local w = page.TabHeight
+if expanded then
+w = expandedWidth()
+end
+arg:Tween(textButton, { Size = UDim2.fromOffset(w, page.TabHeight) }, dockAnim)
+if imageLabel ~= nil then
+local ip = UDim2.fromScale(0.5, 0.5)
+if expanded then
+ip = UDim2.fromOffset(page.TabPaddingLeft + page.TabIconSize / 2, page.TabHeight / 2)
+end
+arg:Tween(imageLabel, { Position = ip }, dockAnim)
+end
+arg:Tween(instance2, { TextTransparency = expanded and 0 or 1 }, dockFade)
+if not obj._selected then
+arg:Tween(textButton, { BackgroundTransparency = hovered and 0.72 or 1 }, dockFade)
+end
+end
+obj._applyDock = applyDock
+v121:Connect(textButton.MouseEnter, function()
+obj._hovered = true
+applyDock(true)
+end)
+v121:Connect(textButton.MouseLeave, function()
+obj._hovered = false
+applyDock(false)
+end)
 v121:Connect(textButton.MouseButton1Click, function()
 obj:Open()
 end)
 
-v122:BindStateful("Accent", function(imageColor3)
+v122:BindStateful("TextColor", function(imageColor3)
 local icon = obj._icon
 
 if icon ~= nil and obj._selected then
@@ -14909,11 +14958,14 @@ local str7 = "Unselected"
 local n = 1
 
 if selected then
-str7 = "Accent"
-n = 0
+str7 = "TextColor"
+n = 0.4
 end
 
 arg._menu:Tween(arg._button, { BackgroundTransparency = n })
+if arg._applyDock ~= nil then
+arg._applyDock(arg._hovered == true)
+end
 local icon = arg._icon
 
 if icon ~= nil then
@@ -15347,9 +15399,21 @@ instance.ZIndex = 0
 arg2:Bind(instance, "BackgroundColor3", "GradientDark")
 instance.Parent = frame
 local scrollingFrame = Instance.new("ScrollingFrame")
-scrollingFrame.BackgroundTransparency = 1
-scrollingFrame.Position = UDim2.fromOffset(horizontalInset, headerHeight)
-scrollingFrame.Size = UDim2.new(1, -horizontalInset * 2, 0, page.TabsHeight)
+scrollingFrame.BackgroundTransparency = 0
+scrollingFrame.AnchorPoint = Vector2.new(0.5, 1)
+scrollingFrame.Position = UDim2.new(0.5, 0, 1, -12)
+scrollingFrame.Size = UDim2.fromOffset(0, page.TabHeight + 10)
+scrollingFrame.AutomaticSize = Enum.AutomaticSize.X
+scrollingFrame.ZIndex = 5
+arg2:Bind(scrollingFrame, "BackgroundColor3", "GradientMid")
+local dockCorner = Instance.new("UICorner")
+dockCorner.CornerRadius = UDim.new(1, 0)
+dockCorner.Parent = scrollingFrame
+local dockStroke = Instance.new("UIStroke")
+dockStroke.Thickness = 1
+dockStroke.Transparency = 0.3
+arg2:Bind(dockStroke, "Color", "Outline")
+dockStroke.Parent = scrollingFrame
 scrollingFrame.BorderSizePixel = v86[186]
 scrollingFrame.AutomaticCanvasSize = Enum.AutomaticSize.X
 scrollingFrame.CanvasSize = UDim2.new(v86[186], 0, v86[186], v86[186])
@@ -15358,7 +15422,7 @@ scrollingFrame.ScrollBarThickness = 0
 scrollingFrame.ScrollingDirection = Enum.ScrollingDirection.X
 scrollingFrame.ElasticBehavior = Enum.ElasticBehavior.Never
 arg2:Bind(scrollingFrame, "ScrollBarImageColor3", "Accent")
-scrollingFrame.Parent = frame
+scrollingFrame.Parent = parent
 
 if not page.HasTitleBlock then
 scrollingFrame.Size = UDim2.new(v86[63], -horizontalInset - page.SearchCollapsedWidth + page.SearchRightInset + page.TabGap, v86[186], page.TabsHeight)
@@ -15377,6 +15441,10 @@ uiListLayout.FillDirection = Enum.FillDirection.Horizontal
 uiListLayout.Padding = UDim.new(0, 4)
 uiListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 uiListLayout.Parent = scrollingFrame
+local dockPadding = Instance.new("UIPadding")
+dockPadding.PaddingLeft = UDim.new(0, 6)
+dockPadding.PaddingRight = UDim.new(0, 6)
+dockPadding.Parent = scrollingFrame
 v118.attachOverflowCues(arg3, arg2, scrollingFrame, frame, "X")
 
 return {
@@ -15550,6 +15618,36 @@ frame.ClipsDescendants = true
 local railCorner = Instance.new("UICorner")
 railCorner.CornerRadius = UDim.new(0, 12)
 railCorner.Parent = frame
+local avatarBtn = Instance.new("ImageLabel")
+avatarBtn.Size = UDim2.fromOffset(40, 40)
+avatarBtn.AnchorPoint = Vector2.new(0.5, 1)
+avatarBtn.Position = UDim2.new(0.5, 0, 1, -14)
+avatarBtn.BackgroundColor3 = Color3.fromRGB(30, 32, 46)
+avatarBtn.BorderSizePixel = 0
+avatarBtn.ScaleType = Enum.ScaleType.Crop
+avatarBtn.ImageTransparency = 1
+local avCorner = Instance.new("UICorner")
+avCorner.CornerRadius = UDim.new(1, 0)
+avCorner.Parent = avatarBtn
+local avStroke = Instance.new("UIStroke")
+avStroke.Thickness = 2
+avStroke.Transparency = 0.35
+arg3:Bind(avStroke, "Color", "Accent")
+avStroke.Parent = avatarBtn
+avatarBtn.Parent = frame
+task.spawn(function()
+local players = game:GetService("Players")
+local plr = players.LocalPlayer
+if plr == nil then return end
+local ok, thumb = pcall(function()
+return players:GetUserThumbnailAsync(plr.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size100x100)
+end)
+if ok and type(thumb) == "string" and #thumb > 0 then
+avatarBtn.Image = thumb
+avatarBtn.ImageTransparency = 0
+end
+end)
+
 frame.Parent = parent
 local instance = Instance.new(v86[128])
 instance.BackgroundTransparency = 0
@@ -16641,6 +16739,7 @@ frame.Position = udim2
 local uiCorner = Instance.new("UICorner")
 uiCorner.CornerRadius = UDim.new(0, 12)
 uiCorner.Parent = frame
+frame.ClipsDescendants = true
 local instance3 = Instance.new(v86[128])
 instance3.Position = UDim2.new(0, 0, 1, -8)
 instance3.Size = UDim2.new(1, v86[186], 0, 8)
@@ -17811,7 +17910,7 @@ end)
 end
 
 local function fn39(arg, arg2, arg3, arg4, arg5)
-local v120 = arg4:AddTab({ Label = "Theme" })
+local v120 = arg4:AddTab({ Label = "Theme", Icon = "rbxassetid://127234874352422" })
 local v121 = v120:Grid({ Columns = 1 })
 local v122 = v121:AddSection({ Title = "Themes", Side = "full" })
 local config = arg:GetConfig()
@@ -18014,7 +18113,7 @@ end
 end
 
 local savedName = config ~= nil and config:Get(v119.appendPath(arg5, "PresetName")) or nil
-selectedName = typeof(savedName) == "string" and savedName or (tbl17.glass.IsActive() and "Liquid Glass" or "Flux")
+selectedName = typeof(savedName) == "string" and savedName or "Flux"
 if config ~= nil and config:Get(v119.appendPath(arg5, "LiquidGlass")) == true then
 tbl17.glass.Enable()
 end
@@ -18061,7 +18160,7 @@ return function(arg, arg2, arg3, arg4, arg5, arg6, arg7)
 local v120 = arg2:AddTab({ Label = "General", Icon = "rbxassetid://106205298246017" })
 local v121 = v120:Grid({ Columns = 2 })
 fn36(arg, arg4, v121)
-local v122 = arg2:AddTab({ Label = "Config Profiles" })
+local v122 = arg2:AddTab({ Label = "Config Profiles", Icon = "rbxassetid://109514257830136" })
 local v123 = v122:Grid({ Columns = 2 })
 fn38(arg, arg3, v123)
 local v124 = fn39(arg, arg4, arg3, arg2, arg5)
@@ -59872,7 +59971,7 @@ return io.c
 end
 end
 do -- ip
-local function fn35() tbl17 .aE(); tbl17 .hN();local I,W,N,P= tbl17 .il(), tbl17 .im(), tbl17 .io(),{Overview="rbxassetid://89644754139307",Skins="rbxassetid://97652569554326",Wraps="rbxassetid://76631821212930",Charms="rbxassetid://125353572203968",Finishers="rbxassetid://82039875682356",Presets="rbxassetid://119633739754015"};return function(l,a)local e=a:AddTab({Label="Cosmetics",Icon="rbxassetid://128162112866809",Description="Manage cosmetic runtime, catalogs, and cosmetic presets."});N(l,(e:AddTab({Label="Presets",Icon=P.Presets,Description="Create, load, automate, and delete whole cosmetic loadouts."}):Grid({Columns=2})));W(l,e:AddTab({Label="Overview",Icon=P.Overview,Description="Enable cosmetic features, unlock cosmetics, reroll, and share your active look."}):Grid({Columns=2}),(I(l,{Skins=e:AddTab({Label="Skins",Icon=P.Skins,Description="Browse and apply weapon skin variants."}),Wraps=e:AddTab({Label="Wraps",Icon=P.Wraps,Description="Browse weapon wraps and control inverted patterns."}),Charms=e:AddTab({Label="Charms",Icon=P.Charms,Description="Browse weapon charms and optionally override rank charms."}),Finishers=e:AddTab({Label="Finishers",Icon=P.Finishers,Description="Browse and apply weapon finishers."})})));end;end
+local function fn35() tbl17 .aE(); tbl17 .hN();local I,W,N,P= tbl17 .il(), tbl17 .im(), tbl17 .io(),{Overview="rbxassetid://89644754139307",Skins="rbxassetid://97652569554326",Wraps="rbxassetid://76631821212930",Charms="rbxassetid://125353572203968",Finishers="rbxassetid://82039875682356",Presets="rbxassetid://70979486241131"};return function(l,a)local e=a:AddTab({Label="Cosmetics",Icon="rbxassetid://128162112866809",Description="Manage cosmetic runtime, catalogs, and cosmetic presets."});N(l,(e:AddTab({Label="Presets",Icon=P.Presets,Description="Create, load, automate, and delete whole cosmetic loadouts."}):Grid({Columns=2})));W(l,e:AddTab({Label="Overview",Icon=P.Overview,Description="Enable cosmetic features, unlock cosmetics, reroll, and share your active look."}):Grid({Columns=2}),(I(l,{Skins=e:AddTab({Label="Skins",Icon=P.Skins,Description="Browse and apply weapon skin variants."}),Wraps=e:AddTab({Label="Wraps",Icon=P.Wraps,Description="Browse weapon wraps and control inverted patterns."}),Charms=e:AddTab({Label="Charms",Icon=P.Charms,Description="Browse weapon charms and optionally override rank charms."}),Finishers=e:AddTab({Label="Finishers",Icon=P.Finishers,Description="Browse and apply weapon finishers."})})));end;end
 
 tbl17.ip = function()
 local ip = tbl17.cache.ip
